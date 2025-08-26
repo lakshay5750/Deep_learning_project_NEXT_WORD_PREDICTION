@@ -1,18 +1,25 @@
-## Project Description: Next Word Prediction Using LSTM
-#### Project Overview:
+# Project Overview  
 
-the link of project is deeplearningprojectnextwordprediction-etmeywdptv26l7zhxfwxca.streamlit.app/
+🔗 Live Demo: [Next Word Prediction App](https://deeplearningprojectnextwordprediction-etmeywdptv26l7zhxfwxca.streamlit.app/)  
 
-This project aims to develop a deep learning model for predicting the next word in a given sequence of words. The model is built using Long Short-Term Memory (LSTM) networks, which are well-suited for sequence prediction tasks. The project includes the following steps:
+This project aims to develop a deep learning model for predicting the next word in a given sequence of words. The model is built using Long Short-Term Memory (LSTM) networks, which are well-suited for sequence prediction tasks.  
 
-1- Data Collection: We use the text of Shakespeare's "Hamlet" as our dataset. This rich, complex text provides a good challenge for our model.
+## Steps  
 
-2- Data Preprocessing: The text data is tokenized, converted into sequences, and padded to ensure uniform input lengths. The sequences are then split into training and testing sets.
+1. **Data Collection**  
+   - Used Shakespeare's *Hamlet* as the dataset.  
 
-3- Model Building: An LSTM model is constructed with an embedding layer, two LSTM layers, and a dense output layer with a softmax activation function to predict the probability of the next word.
+2. **Data Preprocessing**  
+   - Tokenization, sequence creation, padding, and train-test split.  
 
-4- Model Training: The model is trained using the prepared sequences, with early stopping implemented to prevent overfitting. Early stopping monitors the validation loss and stops training when the loss stops improving.
+3. **Model Building**  
+   - LSTM model with embedding layer, two LSTM layers, and a dense softmax output layer.  
 
-5- Model Evaluation: The model is evaluated using a set of example sentences to test its ability to predict the next word accurately.
+4. **Model Training**  
+   - Early stopping applied to prevent overfitting.  
 
-6- Deployment: A Streamlit web application is developed to allow users to input a sequence of words and get the predicted next word in real-time.
+5. **Model Evaluation**  
+   - Evaluated using example sentences for prediction accuracy.  
+
+6. **Deployment**  
+   - Deployed via **Streamlit web app** for real-time next-word prediction.  
